@@ -16,6 +16,8 @@ tal procedimento de matching a cada 6 horas. Você pode encontrar uma pequena de
 - mongoose (^5.9.25)
 - node-schedule (^1.3.2)
 - Docker (Container MongoDB)
+- Eslint (^7.3.0)
+- Preetier (^2.0.5)
 
 ## COmo instalar e rodar local :computer:</strong>:
 
