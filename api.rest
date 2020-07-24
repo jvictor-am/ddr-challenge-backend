@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:3333
+
+@contentType = application/json
+
+### Cria registro de gravação
+POST {{baseUrl}}/gravacao
+Content-Type: {{contentType}}
+
+{
+  "telefone": "11911111111",
+  "ramal": "203",
+  "dataGravacao": "2020-04-12 12:34:53"
+}
+
+### Cria registro de tabulação
+POST {{baseUrl}}/tabulacao
+Content-Type: {{contentType}}
+
+{
+  "nomeCliente": "Jõao Santos",
+  "protocolo": "C202004002",
+  "dataAtendimento": "2020-04-12 12:43:12",
+  "numeroBinado": "11922222222",
+  "numeroAcesso": "11933333333"
+}
+
+### Lista Matchings
+GET {{baseUrl}}/matchings
+Content-Type: {{contentType}}
+
+{
+}
